@@ -1,4 +1,3 @@
-com:
-  cheonwooo:
-    profile: local
-    content: spring-cloud-config
+cheonwooo:
+  profile: local
+  content: spring-cloud-config

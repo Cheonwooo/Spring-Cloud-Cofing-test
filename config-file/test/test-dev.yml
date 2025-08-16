@@ -1,4 +1,3 @@
-com:
-  cheonwooo:
-    profile: dev
-    content: spring-cloud-config
+cheonwooo:
+  profile: dev
+  content: spring-cloud-config
