@@ -3,6 +3,11 @@ spring:
     name: test
   profiles:
     active: dev
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
   config:
     import: optional:configserver:http://localhost:8888
 
@@ -10,4 +15,4 @@ management:
   endpoints:
     web:
       exposure:
-        include: "refresh"
+        include: refresh, busrefresh
